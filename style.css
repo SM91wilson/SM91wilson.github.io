@@ -138,6 +138,10 @@ nav{
 }
 
 /* projects */
+.carousel-img {
+    height: 200px;
+}
+
 .betImage {
     width: auto;
     height: 50vh;
