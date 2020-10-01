@@ -222,7 +222,13 @@ footer {
     margin-left: 45%;
 }
 
-.LIlink .GHlink {
+i {
+    height: 32px;
+    width: 32px;
+    margin-left: 45%;
+}
+
+.LIlink .GHlink i {
     text-align: center;
 }
 
