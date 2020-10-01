@@ -119,6 +119,7 @@ nav{
     background: rgba(189, 183, 183, 0.34);
     margin: auto;
     margin-top: 4rem;
+    margin-bottom: 4rem;
     float: right;
 }
 
@@ -138,6 +139,14 @@ nav{
 }
 
 /* projects */
+.projTitle {
+    background: linear-gradient(to right,#92c9e4, #8d92a7);
+    width: 66%;
+    text-align: center;
+    color: whitesmoke;
+    margin: auto;
+}
+
 .carousel-img {
     height: 200px;
 }
@@ -183,6 +192,10 @@ p{
 
 .project1 .project2 .project3{
     position: absolute;
+}
+
+.projLink {
+    color: #7292e2;
 }
 
 /* contact */

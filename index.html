@@ -15,6 +15,7 @@
       crossorigin="anonymous"
     ></script>
     <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="/Images/favicon.ico" type="image/x-icon"/>
 
     <title>Portfolio Page</title>
   </head>
@@ -27,10 +28,10 @@
         <div class="nav-wrapper">
           <a href="#top" class="brand-logo" style="font-size: 3vw">SW</a>
           <ul class="right hide-on-med-and-down">
-            <li><a style="font-size: 1vw" href="#top">Home</a></li>
-            <li><a style="font-size: 1vw" href="#about">About Me</a></li>
-            <li><a style="font-size: 1vw" href="#project">Projects</a></li>
-            <li><a style="font-size: 1vw" href="#contact">Contact</a></li>
+            <li><a style="font-size: 1.25vw" href="#top">Home</a></li>
+            <li><a style="font-size: 1.25vw" href="#about">About Me</a></li>
+            <li><a style="font-size: 1.25vw" href="#project">Projects</a></li>
+            <li><a style="font-size: 1.25vw" href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -111,23 +112,25 @@
       <!-- projects -->
       <!-- carousel -->
       <div id="project">
+        
         <div class="carousel item" data-aos="fade-up">
+          <h2 class="col s8 projTitle">Projects</h2>
           <a
-            class="carousel-item modal-trigger"
+            class="carousel-item"
             id="carousel1"
             onclick="onClickFunc(this.id)"
             href="#modal1"
             ><img class="carousel-img" src="Images/favicon.png" />
           </a>
           <a
-            class="carousel-item modal-trigger"
+            class="carousel-item"
             id="carousel2"
             onclick="onClickFunc(this.id)"
             href="#modal2"
             ><img class="carousel-img" src="Images/IMG_1298.JPG" />
           </a>
           <a
-            class="carousel-item modal-trigger"
+            class="carousel-item"
             id="carousel3"
             onclick="onClickFunc(this.id)"
             href="#modal3"
@@ -138,7 +141,7 @@
         <div class="container projCont">
           <div class="project1">
             <h4 class="proj1title" style="font-size: 3vw">BetEase</h4>
-            <p class="item">
+            <p>
               A website focusing on showing current matches and odds for several
               sports.
             </p>
@@ -160,11 +163,12 @@
             src="./Images/BetEaseAbout.png" 
             alt="betEase secondary page"
             />
+            <a class="projLink" href="https://github.com/rf-spuds/project1">Link to Github Repo</a>
           </div>
 
           <div class="project2">
             <h4 class="proj2title" style="font-size: 3vw">Murder Squad</h4>
-            <p class="item">
+            <p>
               An app that simulates a murder mystery dinner party.
             </p>
             <img class="betImage responsive-img" 
@@ -190,12 +194,15 @@
             src="./Images/ms screenshot 3.png" 
             alt="murder squad accusation page"
             />
+            <a class="projLink" href="https://github.com/SM91wilson/Murder-Squad">Link to Github Repo</a>
+            <br>
+            <a class="projLink" href="https://future-group-project2.herokuapp.com/">Live Link</a>
           </div>
 
           <div class="project3" id="project3">
             <!-- project3 -->
             <h4 class="proj3title" style="font-size: 3vw">Budget Tracker</h4>
-            <p class="item">
+            <p>
               An app to keep track of the spending of the user.
             </p>
             <p>
@@ -211,6 +218,9 @@
               end and uses MySQL for storing, structuring and relating the data
               on the back end.
             </p>
+            <a class="projLink" href="https://github.com/SM91wilson/Offline-Budget-Tracker">Link to Github Repo</a>
+            <br>
+            <a class="projLink" href="https://budgetapp-project.herokuapp.com/">Live Link</a>
           </div>
         </div>
       </div>
